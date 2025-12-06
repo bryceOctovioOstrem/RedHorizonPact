@@ -1,0 +1,31 @@
+{
+"portraits":{
+		"standard_male":[
+			"graphics/portraits/com_male_1.png",
+			"graphics/portraits/com_male_2.png",
+			"graphics/portraits/com_male_3.png",
+			"graphics/portraits/com_male_4.png",
+			"graphics/portraits/com_male_5.png",
+			"graphics/portraits/com_male_6.png",
+			"graphics/portraits/com_male_7.png",
+			"graphics/portraits/com_male_8.png",
+			"graphics/portraits/com_male_9.png",
+			"graphics/portraits/com_male_10.png",
+			"graphics/portraits/com_male_11.png",
+			"graphics/portraits/com_male_12.png",
+		],
+		"standard_female":[
+			"graphics/portraits/com_female_1.png",
+			"graphics/portraits/com_female_2.png",
+			"graphics/portraits/com_female_3.png",
+			"graphics/portraits/com_female_4.png",
+			"graphics/portraits/com_female_5.png",
+			"graphics/portraits/com_female_6.png",
+
+			"graphics/portraits/com_unisex_1.png",
+			"graphics/portraits/com_unisex_2.png",
+			"graphics/portraits/com_unisex_3.png",
+			"graphics/portraits/com_unisex_4.png",
+		],
+	}
+}

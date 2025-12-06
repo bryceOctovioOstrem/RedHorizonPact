@@ -1,0 +1,36 @@
+{
+  "hullName": "com_KE_tank",
+  "hullId": "com_KE_tank",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/hulls/com_972_sprite.png",
+  "style": "LOW_TECH",
+  "height": 35,
+  "width": 20,
+  "center": [10, 17.5],
+  "collisionRadius": 18,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 20,
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 0,
+      "locations": [1.5, -0]
+    }
+  ],
+  "engineSlots": [],
+  "bounds": [
+    -16.5, -5,
+    -12.5, -10,
+    7.5, -9,
+    16.5, -5,
+    16.5, 5,
+    7.5, 9,
+    -12.5, 10,
+    -16.5, 5
+  ]
+}

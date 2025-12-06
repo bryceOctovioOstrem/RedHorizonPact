@@ -1,0 +1,64 @@
+{
+  "variantId": "com_astral_gvardiya",
+  "hullId": "com_astral",
+  "displayName": "Attack",
+  "goalVariant": true,
+  "fluxCapacitors": 36,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "operations_center",
+    "shield_shunt"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 001": "lrpdlaser",
+        "WS 002": "lrpdlaser",
+        "WS 003": "lrpdlaser",
+        "WS 004": "lrpdlaser",
+        "WS 005": "lrpdlaser"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 006": "lightdualmg",
+        "WS 007": "lightdualmg",
+        "WS 008": "lightdualmg"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 013": "pilum",
+        "WS 014": "pilum",
+        "WS 015": "pilum",
+        "WS 023": "pilum",
+        "WS 024": "pilum"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 011": "pilum_large",
+        "WS 012": "pilum_large"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "T185_wing",
+    "T185_wing",
+    "T406_wing",
+    "T406_wing",
+    "T972_wing",
+    "T972_wing"
+  ]
+}

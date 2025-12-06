@@ -1,0 +1,22 @@
+{
+  "variantId": "com_energy_tank_variant",
+  "hullId": "com_energy_tank",
+  "displayName": "New Variant",
+  "goalVariant": false,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "COM_tank_gun_energy"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

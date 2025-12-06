@@ -1,0 +1,63 @@
+{
+  "variantId": "com_astral_variant",
+  "hullId": "com_astral",
+  "displayName": "Attack",
+  "goalVariant": true,
+  "fluxCapacitors": 50,
+  "fluxVents": 29,
+  "quality": 0,
+  "permaMods": [],
+  "hullMods": [
+    "expanded_deck_crew"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS 006": "mininglaser",
+        "WS 007": "mininglaser",
+        "WS 008": "mininglaser"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 001": "mininglaser",
+        "WS 002": "mininglaser",
+        "WS 003": "mininglaser",
+        "WS 004": "mininglaser",
+        "WS 005": "mininglaser"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 011": "hammerrack",
+        "WS 012": "hammerrack",
+        "WS 014": "jackhammer",
+        "WS 015": "jackhammer",
+        "WS 023": "jackhammer"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 013": "jackhammer",
+        "WS 024": "jackhammer"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "T185_wing",
+    "T185_wing",
+    "T406_wing",
+    "T406_wing",
+    "T972_wing",
+    "T972_wing"
+  ]
+}

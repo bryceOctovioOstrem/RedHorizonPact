@@ -1,0 +1,10 @@
+{
+    "id": "redHorizonPact ",
+    "name": "Red Horizon Pact",
+    "author": "LordKhorne",
+    "version": ".01",
+    "description": " A vanguardist communist faction for those with a love of soliderity",
+    "gameVersion": "0.98a",
+    "dependencies": [],
+    "modPlugin":"data.scripts.COM_ModPlugin"
+}

@@ -1,0 +1,4 @@
+id,variant,tags,tier,rarity,fleet pts,op cost,formation,range,attackRunRange,attackPositionOffset,num,role,role desc,refit,base value,,,,,,,,,,,,,number
+T406_wing,com_energy_tank_variant,"fighter3, fighter, low, lowtech_bp, merc, ind",1,,8,16,CLAW,2000,500,-400,4,FIGHTER,Heavy Fighter,10,8000,,,,,,,,,,,,,4
+T185_wing,COM_HE_FIGHTER_variant,"fighter3, fighter, low, lowtech_bp, merc, ind",1,,8,16,CLAW,2000,500,-400,4,FIGHTER,Heavy Fighter,10,8000,,,,,,,,,,,,,4
+T972_wing,com_KE_tank_variant,"fighter3, fighter, low, lowtech_bp, merc, ind",1,,8,16,CLAW,2000,500,-400,4,FIGHTER,Heavy Fighter,10,8000,,,,,,,,,,,,,4

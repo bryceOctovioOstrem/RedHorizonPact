@@ -1,0 +1,185 @@
+{
+	# should be a copy of "combatSmall", minus variants that are annoying to fight in low numbers
+	# for example, no Hyperions or fast beam-based kiting loadouts, or ships with damper field
+	"combatSmallForSmallFleet":{
+		"com_brawler_basic":2,
+		"com_brawler_gvardiya":1,
+		"fallback":{"combatSmall":1},
+	},
+	"combatSmall":{
+		"com_brawler_basic":2,
+		"com_brawler_gvardiya":1,
+		"com_hammerhead_common":2,
+		"com_hammerhead_gvardiya":1,
+		"fallback":{"combatMedium":0.5},
+	},
+	"combatMedium":{
+		"com_hammerhead_common":2,
+		"com_hammerhead_gvardiya":1,
+		"com_anubis_basic":1,
+		"com_anubis_gvardiya":.5,
+		"fallback":{"combatSmall":1},
+	},
+	"combatLarge":{
+		"com_anubis_basic":2,
+		"com_anubis_gvardiya":1,		
+		"com_invictus_basic":2,
+		"com_invictus_gardiya":1,		
+		"fallback":{"combatMedium":1},
+	},
+	"combatCapital":{
+		"com_astral_variant":2,
+		"com_astral_gvardiya":1,		
+		"com_invictus_basic":2,
+		"com_invictus_gardiya":1,
+		"com_conquest_gvardiya":1,
+		"com_conquest_basic":2,		
+		"com_odyssey_basic":2,
+		"com_odyssey_gvardiya":1,		
+		"fallback":{"combatLarge":1},
+	},
+		
+	# hybrid ships with good combat and cargo capacity
+	"combatFreighterSmall":{
+		
+		"fallback":{"freighterSmall":1},
+	},
+	"combatFreighterMedium":{
+		
+		"fallback":{"combatFreighterSmall":1},
+	},
+	"combatFreighterLarge":{
+		
+		"fallback":{"combatFreighterMedium":1},
+	},
+	
+	"civilianRandom":{
+
+	},
+
+	# carriers
+	"carrierSmall":{
+		"com_drover_basic":2,
+		"com_drover_gvardiya":1,
+		"fallback":{"carrierMedium":0.5},
+		"fallback2":{"carrierLarge":0.25},
+	},
+	"carrierMedium":{
+		"com_invictus_basic":2,
+		"com_invictus_gardiya":1,
+		"com_anubis_basic":2,
+		"com_anubis_gvardiya":1,
+		"com_mora_basic":2,
+		"com_mora_gvardiya":1,
+		"fallback":{"carrierSmall":1},
+		"fallback2":{"carrierLarge":0.5},
+	},
+	"carrierLarge":{
+        "com_astral_variant":2,
+		"com_astral_gvardiya":1,
+		"fallback":{"carrierMedium":1},
+		"fallback2":{"carrierSmall":1},
+	},
+
+	# phase ships
+	"phaseSmall":{
+
+		"fallback":{"phaseMedium":0.5},
+		"fallback2":{"phaseLarge":0.25},
+	},
+	"phaseMedium":{
+		"com_grendel_gvardiya":1,
+		"com_grendel_basic":2,
+		"fallback":{"phaseSmall":1},
+		"fallback2":{"phaseLarge":0.5},
+	},
+	"phaseLarge":{
+
+		"fallback":{"phaseMedium":1},
+		"fallback2":{"phaseSmall":1},
+	},
+	"phaseCapital":{
+		
+	},
+
+	# freighters and such
+	"freighterSmall":{
+
+		"fallback":{"freighterMedium":0.5},
+		"fallback2":{"freighterLarge":0.25},
+	},
+	"freighterMedium":{
+
+		"fallback":{"freighterSmall":1},
+		"fallback2":{"freighterLarge":0.5},
+	},
+	"freighterLarge":{
+
+		"fallback":{"freighterMedium":1},
+		"fallback2":{"freighterSmall":1},
+	},
+	
+	"tankerSmall":{
+
+		"fallback":{"tankerMedium":0.5},
+		"fallback2":{"tankerLarge":0.25},
+	},
+	"tankerMedium":{
+
+		"fallback":{"tankerSmall":1},
+		"fallback2":{"tankerLarge":0.5},
+	},
+	"tankerLarge":{
+		"prometheus_Super":10,
+		"fallback":{"tankerMedium":1},
+		"fallback2":{"tankerSmall":1},
+	},
+	
+	"personnelSmall":{
+
+		"fallback":{"personnelMedium":0.5},
+		"fallback2":{"personnelLarge":0.25},
+	},
+	"personnelMedium":{
+
+		"fallback":{"personnelSmall":1},
+		"fallback2":{"personnelLarge":0.5},
+	},
+	"personnelLarge":{
+		"fallback":{"personnelMedium":1},
+		"fallback2":{"personnelSmall":1},
+	},
+	
+	"linerSmall":{
+
+		"fallback":{"linerMedium":0.5},
+		"fallback2":{"linerLarge":0.25},
+	},
+	"linerMedium":{
+
+		"fallback":{"linerSmall":1},
+		"fallback2":{"linerLarge":0.5},
+	},
+	"linerLarge":{
+
+		"fallback":{"linerMedium":1},
+		"fallback2":{"linerSmall":1},
+	},
+	
+	# utility ships
+
+
+	# Old/unused below this line
+	"fastAttack":{
+
+		"fallback":{"combatSmall":1},
+	},
+
+	"escortSmall":{
+		"fallback":{"combatSmall":1},
+	},
+	"escortMedium":{
+		"fallback":{"combatMedium":1},
+	},
+	
+}

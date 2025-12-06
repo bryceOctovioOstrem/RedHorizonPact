@@ -1,0 +1,322 @@
+{
+	id:"RHP",
+	"color":[219, 38, 29,255],
+	"displayName":"RHP",
+	"displayNameWithArticle":"Red Horizon Pact",
+	"displayNameLong":"Red Horizon Pact",
+	"displayNameLongWithArticle":"the Union of Peoples Democratic Planets",
+	"logo":"graphics/factions/RHP_flag.png",
+	"crest":"graphics/factions/RHP_crest.png",
+	"shipNamePrefix":"WLN",
+	"shipNameSources":{
+		"REVOLUTIONARY":10,
+	},
+	"names":{
+		"modern":1,
+		"world":1,
+		"future":1,
+	},
+	# variantOverrides restricts hulls to listed variants and adjusts their probability
+	"variantOverrides":{
+	},
+	# multiplier for how often hulls show up in the faction's fleets
+	"hullFrequency":{
+		"tags":{
+		},
+		"hulls":{
+		},
+	},
+	# ships the faction gets access to when importing S&W out-of-faction
+	"shipsWhenImporting":{
+		"tags":["pirates"],
+		"hulls":[
+		],
+	},
+	"knownShips":{
+		"tags":["com_bp","pirates","base_bp"],
+		"hulls":[
+		],
+	},
+	# listing ships here will make the faction mostly use them even if other hulls become available
+	# listing capitals as priority will make them be picked even when they're the wrong "type" re: warship/carrier/phase ship
+	"priorityShips":{
+		"tags":["com_bp"],
+		"hulls":[
+		],
+	},
+	"knownFighters":{
+		"tags":["com_bp","pirates"],
+		"fighters":[
+			"T406_wing",
+			"T185_wing",
+			"T972_wing",
+		],
+	},
+	"priorityFighters":{
+		"tags":["com_bp"],
+		"fighters":[
+		],
+	},
+	"knownWeapons":{
+		"tags":["com_bp"],
+		"weapons":[
+			"pdlaser",
+			"taclaser",
+			"ioncannon",		
+			
+			"phasebeam",
+			"gravitonbeam",
+			"pulselaser",
+			"heavyblaster",
+			"heavyburst",
+			"ionpulser",
+			"ionbeam",
+			
+			"plasma",
+			"hil",
+			"autopulse",
+			"guardian",
+			"tachyonlance",
+			
+			
+			"atropos",
+			"atropos_single",
+			"swarmer",
+			"annihilator",
+			"heatseeker",
+			"harpoon",
+			"harpoon_single",
+			"breach",
+			"sabot",
+			"sabot_single",
+			
+			"harpoonpod",
+			"breachpod",
+			"sabotpod",
+			"salamanderpod",
+			"phasecl",
+			"typhoon",
+			
+			"cyclone",
+			"hurricane",
+			"squall",
+			"locust",
+			
+			"railgun",
+			"lightneedler",
+			"hveldriver",
+			"heavyneedler",
+			"mjolnir",
+
+
+
+
+
+			"phasebeam",
+			"lightmg",
+            "lightdualmg",
+            "lightdualac",
+            "lightac",
+            "flak",
+            "arbalest",
+            "hammer",
+            "hammer_single",
+            "jackhammer",
+            "hammerrack",
+            "mininglaser",
+		],
+	},
+	"priorityWeapons":{
+		"tags":["com_bp"],
+		"weapons":[
+            "lightmg",
+            "lightdualmg",
+            "lightdualac",
+            "lightac",
+            "flak",
+            "arbalest",
+            "hammer",
+            "hammer_single",
+            "jackhammer",
+            "hammerrack",
+            "mininglaser",
+			"guardian",
+		],
+	},
+	"knownHullMods":{
+		"tags":[],
+		"hullMods":[
+        "heavyarmor",
+        "missleracks",
+        "armoredweapons",
+        "magazines",
+		],
+	},
+	"weaponSellFrequency":{
+		"hammer":10,
+		"jackhammer":10,
+		"hammerrack":10,
+		"mininglaser":10,
+	},
+	"fighterSellFrequency":{
+	},
+	"hullmodSellFrequency":{
+		"heavyarmor":10,
+		"missleracks":10,
+		"armoredweapons":1,
+		"magazines":1,
+	},		
+	"factionDoctrine":{
+		"warships":2,
+		"carriers":4,
+		"phaseShips":1,
+		
+		"officerQuality":1,
+		"shipQuality":1,
+		"numShips":5,
+		
+		"shipSize":1,
+		
+		"aggression":5,
+		
+		"combatFreighterProbability":0,     				# instead of some portion of the freighters in a fleet
+		"combatFreighterCombatUseFraction":0,  				# as part of the normal combat lineup
+		"combatFreighterCombatUseFractionWhenPriority":0.33,# as part of normal combat lineup, when marked as priority ship
+		"autofitRandomizeProbability":0,
+
+		"officerSkillsShuffleProbability":1,
+		"officerSkills":[
+			"polarized_armor",
+			"impact_mitigation",
+            "missile_specialization",
+		],
+		"commanderSkillsShuffleProbability":1f,
+		"commanderSkills":[
+			"missile_specialization",
+			"polarized_armor",
+			"cybernetic_augmentation",
+		],
+	},
+	"illegalCommodities":[
+		"ai_cores","food", "crew", "marines",
+	],
+	"music":{
+		"theme":"music_RHP_theme",
+		"market_neutral":"music_RHP_theme",
+		"market_hostile":"music_RHP_theme_hostile",
+		"market_friendly":"music_RHP_theme_happy",
+		"encounter_neutral":"music_RHP_theme",
+		"encounter_hostile":"music_RHP_theme_hostile",
+		"encounter_friendly":"music_RHP_theme_happy",
+	},
+	"internalComms":"tritachyon_internal",
+	"portraits":{
+		"standard_male":[
+			"graphics/portraits/com_male_1.png",
+			"graphics/portraits/com_male_2.png",
+			"graphics/portraits/com_male_3.png",
+			"graphics/portraits/com_male_4.png",
+			"graphics/portraits/com_male_5.png",
+			"graphics/portraits/com_male_6.png",
+			"graphics/portraits/com_male_7.png",
+			"graphics/portraits/com_male_8.png",
+			"graphics/portraits/com_male_9.png",
+			"graphics/portraits/com_male_10.png",
+			"graphics/portraits/com_male_11.png",
+			"graphics/portraits/com_male_12.png",
+
+			"graphics/portraits/com_unisex_1.png",
+			"graphics/portraits/com_unisex_2.png",
+			"graphics/portraits/com_unisex_3.png",
+			"graphics/portraits/com_unisex_4.png",
+
+			"graphics/portraits/portrait_ai1.png",
+			"graphics/portraits/portrait_ai1b.png",
+		],
+		"standard_female":[
+			"graphics/portraits/com_female_1.png",
+			"graphics/portraits/com_female_2.png",
+			"graphics/portraits/com_female_3.png",
+			"graphics/portraits/com_female_4.png",
+			"graphics/portraits/com_female_5.png",
+			"graphics/portraits/com_female_6.png",
+
+			"graphics/portraits/com_unisex_1.png",
+			"graphics/portraits/com_unisex_2.png",
+			"graphics/portraits/com_unisex_3.png",
+			"graphics/portraits/com_unisex_4.png",
+
+			"graphics/portraits/portrait_ai1.png",
+			"graphics/portraits/portrait_ai1b.png",
+		],
+	},
+	"ranks":{
+		"ranks":{
+			"spaceAdmiral":{"name":"Comrade Admiral"},
+			"spaceCommander":{"name":"Commander-in-Chief"},
+			
+			"factionLeader":{"name":"General Secretary"},
+		},
+		"posts":{
+			"factionLeader":{"name":"General Secretary"},
+			"patrolCommander":{"name":"Comrade Commander"},
+			"fleetCommander":{"name":"Comrade Commander"},
+			"baseCommander":{"name":"Comrade Commander"},
+			"intelligenceDirector":{"name":"Chairman of the Committee for State Security"},
+		},
+	},
+	"voices":{
+		"LOW":{
+			"soldier":10,
+		},
+		"MEDIUM":{
+			"soldier":10,
+            "scientist":3,
+		},
+		"HIGH":{
+			"scientist":10,
+		},
+	},		
+	"custom":{
+		"offersCommissions":true,
+		"engagesInHostilities":true,
+		"buysAICores":false,
+		"pirateBehavior":true,
+		"AICoreValueMult":3,
+		"AICoreRepMult":0.5,
+		"buysSurveyData":true,
+		"hostilityImpactOnGrowth":false,
+        "fightToTheLast":true,
+		"punitiveExpeditionData":{
+			"vsCompetitors":True,
+			"vsFreePort":True,
+			"canBombard":true,
+			"territorial":true,
+		},
+		"simulatorData":{
+			"showInSimulator":true,
+		},
+	},	
+	"fleetTypeNames":{
+		"trade":"Exchange Fleet",
+		"tradeLiner":"Worker Relocation",
+		"tradeSmuggler":"Profiteer",
+		"smallTrader":"Distribution Convoy",
+		
+		"patrolSmall":"Border Patrol",
+		"patrolMedium":"Security Flotilla",
+		"patrolLarge":"Atifacist Protection Fleet",
+		
+		"inspectionFleet":"Mechanical Worker Liberation Fleet",
+		"taskForce":"Peoples Liberation Armada",
+		
+		"foodReliefFleet":"Worker Relief Convoy",
+		
+		#"mercScout":"Contract Scout",
+		"mercBountyHunter":"Retrieval Contractor",
+		"mercPrivateer":"Security Contractor",
+		#"mercPatrol":"Contracted Patrol",
+		#"mercArmada":"Contracted Armada",
+	}
+},
+

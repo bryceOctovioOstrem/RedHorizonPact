@@ -1,0 +1,70 @@
+{
+  "variantId": "com_odyssey_gvardiya",
+  "hullId": "com_odyssey",
+  "displayName": "gvardiya",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 44,
+  "quality": 2,
+  "permaMods": [],
+  "hullMods": [
+    "targetingunit",
+    "auxiliarythrusters",
+    "shield_shunt"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 007": "pdlaser",
+        "WS 008": "pdlaser",
+        "WS 009": "pdlaser",
+        "WS 010": "pdlaser"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 011": "lrpdlaser",
+        "WS 012": "lrpdlaser",
+        "WS 013": "lrpdlaser",
+        "WS 014": "lrpdlaser",
+        "WS 015": "lrpdlaser",
+        "WS 016": "lrpdlaser",
+        "WS 017": "lrpdlaser",
+        "WS 018": "lrpdlaser"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 002": "gauss",
+        "WS 003": "gauss"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 001": "gauss"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 004": "breachpod",
+        "WS 005": "breachpod",
+        "WS 006": "breachpod"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "T406_wing",
+    "T406_wing"
+  ]
+}

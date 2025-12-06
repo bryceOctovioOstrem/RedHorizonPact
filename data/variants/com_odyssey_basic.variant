@@ -1,0 +1,76 @@
+{
+  "variantId": "com_odyssey_basic",
+  "hullId": "com_odyssey",
+  "displayName": "basic",
+  "goalVariant": true,
+  "fluxCapacitors": 35,
+  "fluxVents": 50,
+  "quality": 0,
+  "permaMods": [],
+  "hullMods": [
+    "missleracks",
+    "heavyarmor",
+    "expanded_deck_crew"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 012": "mininglaser",
+        "WS 013": "mininglaser",
+        "WS 014": "mininglaser",
+        "WS 015": "mininglaser",
+        "WS 016": "mininglaser",
+        "WS 017": "mininglaser",
+        "WS 018": "mininglaser"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 007": "mininglaser",
+        "WS 008": "mininglaser",
+        "WS 009": "mininglaser",
+        "WS 010": "mininglaser",
+        "WS 011": "mininglaser"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 001": "com_mark9"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 002": "com_mark9",
+        "WS 003": "com_mark9"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 004": "jackhammer",
+        "WS 005": "jackhammer"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 006": "jackhammer"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "mining_drone_wing",
+    "T406_wing"
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "variantId": "com_conquest_basic",
+  "hullId": "com_conquest",
+  "displayName": "basic",
+  "goalVariant": true,
+  "fluxCapacitors": 47,
+  "fluxVents": 50,
+  "quality": 0,
+  "permaMods": [],
+  "hullMods": [
+    "heavyarmor",
+    "armoredweapons"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "dualflak",
+        "WS0002": "dualflak"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "com_mark9"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0004": "com_mark9"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "hammerrack",
+        "WS0007": "hammerrack"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0006": "hammerrack",
+        "WS0008": "hammerrack"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0009": "mininglaser",
+        "WS0010": "mininglaser",
+        "WS0011": "mininglaser"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0012": "mininglaser",
+        "WS0013": "mininglaser",
+        "WS0014": "mininglaser"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "T972_wing",
+    "mining_drone_wing"
+  ]
+}

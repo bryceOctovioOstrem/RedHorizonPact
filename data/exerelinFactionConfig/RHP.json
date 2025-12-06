@@ -1,0 +1,86 @@
+{
+    "playableFaction":true,
+    "corvusCompatible":true,
+    "hostileToAll":3,
+    "rebelFleetSuffix":"anti-revolutionaries",
+    
+    "directoryUseShortName":true,
+    "difficultyString":"hard",
+
+    "startRelationships":{  },
+    "maxRelationships":{ "tritachyon":-0.5},
+    "diplomacyPositiveChance":{ "tritachyon":0.8 },
+    "diplomacyNegativeChance":{ "tritachyon":1.2 },
+    
+    "alignments":{
+        "corporate":-1.0,
+        "technocratic":1.0,
+        "militarist":1.0,
+        "hierarchical":1.0,
+        "ideological":1.0,
+        "diplomatic":-1.0
+    },
+    "diplomacyTraits":["selfrighteous", "law_and_order","paranoid","devious","foreverwar","selfrighteous"],
+    
+    # chance of the faction being picked to send a colony expedition. Default 0 (disabled)
+    "colonyExpeditionChance":1.5,	# be fruitful and multiply
+    "colonyTargetValuator":"exerelin.campaign.colony.IndustrialColonyTargetValuator",
+        
+    #"vengeanceLevelNames":["Excommunication", "Interdiction", "Jihad"],
+    #"vengeanceFleetNames":["Evangelists", "Inquisition", "Crusade"],
+    #"vengeanceFleetNamesSingle":["Evangelists", "an Inquisition", "a Crusade"],
+    
+    "groundBattleSettings":{
+		"moraleDamageTakenMult":0.8,
+    },
+    
+    "specialForcesNamerClass":"exerelin.campaign.intel.specialforces.namer.PlanetNamer",
+    
+    "startShipsSolo":[["com_hammerhead_gvardiya"]],
+    "startShipsCombatSmall":[
+      ["com_hammerhead_common", "com_drover_basic", "com_brawler_basic"]
+    ],
+    "startShipsTradeSmall":[["com_hammerhead_common", "cerberus_Standard", "com_brawler_basic"]],
+    "startShipsCombatLarge":[
+      ["com_invictus_basic", "com_drover_gvardiya", "com_brawler_basic"],
+      ["com_anubis_basic", "com_hammerhead_common", "com_brawler_basic"]
+    ],
+    "startShipsTradeLarge":[["colossus_Standard", "mule_Standard", "com_brawler_basic"]],
+    "startShipsExplorerLarge":[["com_mora_basic", "buffalo_luddic_church_Standard", "com_brawler_basic"]],
+    "startShipsCarrierSmall":[["com_drover_basic", "com_hammerhead_common", "com_brawler_basic"]],
+	"startShipsCarrierLarge":[["com_mora_basic", "com_hammerhead_common", "com_brawler_basic"]],
+    "startShipsSuper":[
+	  ["com_conquest_basic"],
+	  ["com_odyssey_basic"]
+	],
+    
+    "startSpecialItems":[
+        [["RHP_package", ""]],
+    ],
+
+    "defenceStations":[
+        {"ids":["orbitalstation", "battlestation", "starfortress"]},
+    ],
+    
+    "industrySeeds":[
+        {"id":"heavyindustry", "mult":0.05},
+        {"id":"lightindustry", "mult":0.2},
+    ],
+    
+    "industrySpawnMults":{
+        "heavyindustry":1,
+        "fuelproduction":.9,
+    },
+    
+    "bonusSeeds":[
+        {"id":"population_upsize", "count":1},
+        {"id":"aiCore_heavyindustry", "count":1},
+    ],
+    "invasionStrengthBonusDefend":1.1,
+    "invasionPointMult":2,
+    "invasionFleetSizeMod":1.1,
+	"morality":"evil",
+	"specialForcesMaxFleets":4,
+
+	
+}

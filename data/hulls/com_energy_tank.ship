@@ -1,0 +1,41 @@
+{
+  "hullName": "com_energy_tank",
+  "hullId": "com_energy_tank",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/hulls/com_energy_tank.png",
+  "style": "LOW_TECH",
+  "height": 41,
+  "width": 20,
+  "center": [10, 20.5],
+  "collisionRadius": 21.5,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 23.5,
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 0,
+      "locations": [3.5, 0]
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": -0,
+      "locations": [3.5, 0]
+    }
+  ],
+  "engineSlots": [],
+  "bounds": [
+    -19.5, -9,
+    18.5, -9,
+    18.5, 9,
+    -19.5, 9
+  ]
+}
