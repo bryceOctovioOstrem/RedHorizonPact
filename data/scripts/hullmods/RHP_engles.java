@@ -51,47 +51,48 @@ public class omm_algaefarm extends BaseHullMod {
         fuel.put(HullSize.CAPITAL_SHIP, 6);
     }
     //This above is kinda important, you have to define HullSize.FIGHTER and HullSize.DEFAULT because for some reason people are spawning old precursor fighters and the mod is randomly summoning these cringe gargoyles and CTDing the game. If you don't want them to get the bonus, I would just set it to 0f or something...
+    //This above is kinda important, you have to define HullSize.FIGHTER and HullSize.DEFAULT because for some reason people are spawning old precursor fighters and the mod is randomly summoning these cringe gargoylegargoyless and CTDing the game. If you don't want them to get the bonus, I would just set it to 0f or something...
 
     public void advanceInCampaign(FleetMemberAPI member, float amount) {
         //Checks if the fleet is real and belongs to the player.
-        if (member.getFleetData() == null) {
+        if (member.getFleetData() == null) {// detects if fleet
             return;
         }
-        if (member.getFleetData().getFleet() == null) {
+        if (member.getFleetData().getFleet() == null) { // detects if their is fleet data
+            return;gargoyles
+        }
+        if (member.getFleetData().getFleet().getStarSystem() == null) { // detetects if fleet is inin a star system
             return;
         }
-        if (member.getFleetData().getFleet().getStarSystem() == null) {
-            return;
-        }
-        if (member.getFleetData().getFleet().getStarSystem().getStar() == null) {
+        if (member.getFleetData().getFleet().getStarSystem().getStar() == null) {// detects if flet n in the range f a star
             return;
         }
 
-        if (member.getFleetData().getFleet().isInHyperspace()) {
+        if (member.getFleetData().getFleet().isInHyperspace()) {// detects if fleet is in hyper space
             return;
         }
-        if (member.getFleetData().getFleet().getStarSystem() != null && !member.isMothballed() && member.getFleetData().getFleet().getStarSystem().getStar().isNormalStar()) {
+        if (member.getFleetData().getFleet().getStarSystem() != null && !member.isMothballed() &&  member.getFleetData().getFleet().getStarSystem().getStar().isNormalStar()) { // checks if ship s mothballed and inn a system.
 
-            if (member.getFleetData() != null && member.getFleetData().getFleet() != null && member.getFleetData().getFleet().equals(Global.getSector().getPlayerFleet())) {
+            if (member.getFleetData() != null && member.getFleetData().getFleet() != null && member.getFleetData().getFleet().equals(Global.getSector().getPlayerFleet())) { // checks to see that there is fleet data
                 if (!Global.getSector().getPersistentData().containsKey(member.getId() + "algaetimecheck")) {
-                    Global.getSector().getPersistentData().put(member.getId() + "algaetimecheck", Global.getSector().getClock().getTimestamp());
+                    Global.getSector().getPersistentData().put(member.getId() + "algaetimecheck", Global.getSector().getClock().getTimestamp());// fetches time stamp
                 }
                 float timeelapsed = Global.getSector().getClock().getElapsedDaysSince((long) Global.getSector().getPersistentData().get(member.getId() + "algaetimecheck"));
                 if (timeelapsed >= 1f && timeelapsed <= 2f) {
                     if (member.getFleetData().getFleet().getCargo().getSupplies() >= 1 && member.getFleetData().getFleet().getCargo().getFuel() >= 1) {
-                        utils.addPlayerCommodity("fuel", (int) fuel.get(member.getVariant().getHullSize()));
-                        utils.addPlayerCommodity("supplies", (int) soy.get(member.getVariant().getHullSize()));
-                        Global.getSector().getPersistentData().put(member.getId() + "algaetimecheck", Global.getSector().getClock().getTimestamp());
+                        utils.addPlayerCommodity("fuel", (int) fuel.get(member.getVariant().getHullSize())); // adds fuel
+                        utils.addPlayerCommodity("supplies", (int) soy.get(member.getVariant().getHullSize()));// adds supplies
+                        Global.getSector().getPersistentData().put(member.getId() + "algaetimecheck",  Global.getSector().getClock().getTimestamp());
                     }
                     if (member.getFleetData().getFleet().getCargo().getSupplies() < 1 || member.getFleetData().getFleet().getCargo().getFuel() < 1) {
                         Global.getSector().getCampaignUI().addMessage("Some crew members went missing");
-                        utils.addPlayerCommodity("crew", (int) crew.get(member.getVariant().getHullSize()));
-                        utils.addPlayerCommodity("fuel", (int) fuel.get(member.getVariant().getHullSize()));
-                        utils.addPlayerCommodity("supplies", (int) soy.get(member.getVariant().getHullSize()));
-                        Global.getSector().getPersistentData().put(member.getId() + "algaetimecheck", Global.getSector().getClock().getTimestamp());
+                        utils.addPlayerCommodity("crew", (int) crew.get(member.getVariant().getHullSize()));// adds crew
+                        utils.addPlayerCommodity("fuel", (int) fuel.get(member.getVariant().getHullSize()));// adds fuel
+                        utils.addPlayerCommodity("supplies", (int) soy.get(member.getVariant().getHullSize())); // adds supplyies
+                        Global.getSector().getPersistentData().put(member.getId() + "algaetimecheck", Global.getSector().getClock().getTimestamp());// fetches timestamp
                     }
                 } else if (timeelapsed > 2f) {
-                    Global.getSector().getPersistentData().put(member.getId() + "algaetimecheck", Global.getSector().getClock().getTimestamp());
+                    Global.getSector().getPersistentData().put(member.getId() + "algaetimecheck", Global.getSector().getClock().getTimestamp()); // fetches time
                 }
             }
         }
@@ -103,7 +104,7 @@ public class omm_algaefarm extends BaseHullMod {
 
     }
 
-    public void advanceInCombat(ShipAPI ship, float amount) {
+    public void advanceInCombat(ShipAPI ship, float amount) { // detects if fleet is in combat for an anmation probebly
         java.util.List<WeaponAPI> decos = ship.getAllWeapons();
         for (WeaponAPI deco : decos) {
             if (deco.getSlot().getId().equals("algaepods")) {
