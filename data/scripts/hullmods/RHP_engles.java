@@ -10,14 +10,14 @@ import com.fs.starfarer.api.combat.WeaponAPI;
 import com.fs.starfarer.api.fleet.FleetMemberAPI;
 import com.fs.starfarer.api.impl.PlayerFleetPersonnelTracker;
 import com.fs.starfarer.api.impl.hullmods.MilitarizedSubsystems;
-import org.lazywizard.lazylib.MathUtils;
-import tecrys.data.utils.utils;
+//import org.lazywizard.lazylib.MathUtils;
+//import tecrys.data.utils.utils;
 
 import java.awt.*;
 import java.util.HashMap;
 import java.util.Map;
 
-public class omm_algaefarm extends BaseHullMod {
+public class RHP_engles extends BaseHullMod {
 
     private static final Map crew = new HashMap();
 
@@ -80,15 +80,15 @@ public class omm_algaefarm extends BaseHullMod {
                 float timeelapsed = Global.getSector().getClock().getElapsedDaysSince((long) Global.getSector().getPersistentData().get(member.getId() + "algaetimecheck"));
                 if (timeelapsed >= 1f && timeelapsed <= 2f) {
                     if (member.getFleetData().getFleet().getCargo().getSupplies() >= 1 && member.getFleetData().getFleet().getCargo().getFuel() >= 1) {
-                        utils.addPlayerCommodity("fuel", (int) fuel.get(member.getVariant().getHullSize())); // adds fuel
-                        utils.addPlayerCommodity("supplies", (int) soy.get(member.getVariant().getHullSize()));// adds supplies
+                        //utils.addPlayerCommodity("fuel", (int) fuel.get(member.getVariant().getHullSize())); // adds fuel
+                        //utils.addPlayerCommodity("supplies", (int) soy.get(member.getVariant().getHullSize()));// adds supplies
                         Global.getSector().getPersistentData().put(member.getId() + "algaetimecheck",  Global.getSector().getClock().getTimestamp());
                     }
                     if (member.getFleetData().getFleet().getCargo().getSupplies() < 1 || member.getFleetData().getFleet().getCargo().getFuel() < 1) {
                         Global.getSector().getCampaignUI().addMessage("Some crew members went missing");
-                        utils.addPlayerCommodity("crew", (int) crew.get(member.getVariant().getHullSize()));// adds crew
-                        utils.addPlayerCommodity("fuel", (int) fuel.get(member.getVariant().getHullSize()));// adds fuel
-                        utils.addPlayerCommodity("supplies", (int) soy.get(member.getVariant().getHullSize())); // adds supplyies
+                        //utils.addPlayerCommodity("crew", (int) crew.get(member.getVariant().getHullSize()));// adds crew
+                        //utils.addPlayerCommodity("fuel", (int) fuel.get(member.getVariant().getHullSize()));// adds fuel
+                        //utils.addPlayerCommodity("supplies", (int) soy.get(member.getVariant().getHullSize())); // adds supplyies
                         Global.getSector().getPersistentData().put(member.getId() + "algaetimecheck", Global.getSector().getClock().getTimestamp());// fetches timestamp
                     }
                 } else if (timeelapsed > 2f) {
@@ -104,7 +104,7 @@ public class omm_algaefarm extends BaseHullMod {
 
     }
 
-    public void advanceInCombat(ShipAPI ship, float amount) { // detects if fleet is in combat for an anmation probebly
+   /* public void advanceInCombat(ShipAPI ship, float amount) { // detects if fleet is in combat for an anmation probebly
         java.util.List<WeaponAPI> decos = ship.getAllWeapons();
         for (WeaponAPI deco : decos) {
             if (deco.getSlot().getId().equals("algaepods")) {
@@ -115,7 +115,7 @@ public class omm_algaefarm extends BaseHullMod {
                 }
             }
         }
-    }
+    }*/
 
     //Oh these are cool colors below introduced in 0.95a, to match with your tech type and stuff. Just nice to have!
     public Color getBorderColor() {
