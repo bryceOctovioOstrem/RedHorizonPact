@@ -1,0 +1,72 @@
+{
+  "variantId": "com_marx_basic",
+  "hullId": "com_marx",
+  "displayName": "basic",
+  "goalVariant": true,
+  "fluxCapacitors": 50,
+  "fluxVents": 49,
+  "quality": 0,
+  "permaMods": [],
+  "hullMods": [
+    "solar_shielding"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "lightdualmg",
+        "WS0003": "lightdualmg",
+        "WS0004": "mininglaser",
+        "WS0005": "mininglaser",
+        "WS0006": "mininglaser",
+        "WS0007": "mininglaser",
+        "WS0008": "mininglaser",
+        "WS0009": "mininglaser",
+        "WS0013": "flak",
+        "WS0014": "mininglaser",
+        "WS0015": "flak",
+        "WS0016": "mininglaser"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0017": "salamanderpod"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "hammerrack"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0010": "swarmer",
+        "WS0011": "swarmer"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
+    }
+  ],
+  "modules": [],
+  "wings": []
+}
