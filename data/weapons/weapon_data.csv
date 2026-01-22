@@ -6,3 +6,4 @@ AK-185,COM_Tank_HE_gun,0,,75,600,,130,,4,30,0,,,,HIGH_EXPLOSIVE,50,,0,2,1,,0,15,
 AK-657,com_mark9,0,,3000,800,,200,,20,9,18,,,,KINETIC,200,,0,3,6,0.1,0,15,2,10,,700,,,100,,,,"kinetic18, base_bp, merc, ind",,,,Anti Shield,,,,,,,,,,7.25
 AK-917,com_engles_giant_gauss,3,,15000,1200,,7500,,2000,1,40,,,,KINETIC,8000,,4,1,,,,,,,,1200,,,400,,,SYSTEM,kinetic20,,,,Anti Shield,,,,,,,,,,6
 AK-745,com_double_arbalest,0,,1000,700,,200,,10,10,8,,,,KINETIC,150,,0,2,2,0.1,0,20,2,10,,800,,,30,,,,"kinetic12, base_bp, ind",,,,Anti Shield,,,,,,,,,,4.125
+Particle accelerator,com_particle_accelerator,3,,21000,1100,3000,,3000,0,100,0,3,0.25,,ENERGY,,2000,0,0.1,2,0.1,,,,,10000,,,,,,,"FIRE_WHEN_INEFFICIENT,SYSTEM","energy20, beam15",,,,Suppression,,,,,"Hits on hull or armor frequently arc to weapons and engines, dealing extra EMP and energy damage. Hits on shields have a chance to generate a shield-penetrating arc based on the target's hard flux level.",,,,,27

@@ -35,7 +35,9 @@
 		"com_conquest_gvardiya":1,
 		"com_conquest_basic":2,		
 		"com_odyssey_basic":2,
-		"com_odyssey_gvardiya":1,		
+		"com_odyssey_gvardiya":1,
+		"com_engles_basic":2,
+		"com_engles_gvardiya":1,
 		"fallback":{"combatLarge":1},
 	},
 		
@@ -77,6 +79,8 @@
 	"carrierLarge":{
         "com_astral_variant":2,
 		"com_astral_gvardiya":1,
+		"com_engles_basic":2,
+		"com_engles_gvardiya":1,
 		"fallback":{"carrierMedium":1},
 		"fallback2":{"carrierSmall":1},
 	},

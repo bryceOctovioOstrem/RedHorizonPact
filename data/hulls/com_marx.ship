@@ -16,6 +16,7 @@
     "repair_gantry",
     "rugged"
   ],
+  "builtInWings": ["mining_drone_wing","mining_drone_wing","mining_drone_wing","mining_drone_wing"],
   "builtInWeapons": {
     "WS0001": "hammerrack"
   },
@@ -27,7 +28,8 @@
       "mount": "HARDPOINT",
       "arc": 0,
       "angle": 0,
-      "locations": [363, 0.5]
+      "locations": [363, 0.5],
+      "renderOrderMod": 100
     },
     {
       "id": "WS0003",
@@ -37,7 +39,7 @@
       "arc": 150,
       "angle": 0,
       "locations": [332, -19],
-      "renderOrderMod": 100
+      "renderOrderMod": 200
     },
     {
       "id": "WS0002",
@@ -47,7 +49,7 @@
       "arc": 150,
       "angle": 0,
       "locations": [332, 19],
-      "renderOrderMod": 100
+      "renderOrderMod": 200
     },
     {
       "id": "WS0004",
@@ -176,6 +178,15 @@
       "arc": 1,
       "angle": 180,
       "locations": [-259, -0]
+    },
+        {
+      "id": "WS0018",
+      "size": "LARGE",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 340,
+      "angle": 0,
+      "locations": [183, -0.5]
     },
     {
       "id": "LB 1",
