@@ -38,6 +38,8 @@
 		"com_odyssey_gvardiya":1,
 		"com_engles_basic":2,
 		"com_engles_gvardiya":1,
+		"com_marx_basic":2,
+		"com_marx_gvardiya":1,
 		"fallback":{"combatLarge":1},
 	},
 		
