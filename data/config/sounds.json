@@ -7,6 +7,11 @@
 	[
 		{"file":"sounds/sfx_wpn_guns/com_engles_chargeup.ogg","pitch":1,"volume":.2},
 	],
+
+		"com_particle_accelerator":
+	[
+		{"file":"sounds/sfx_wpn_guns/com_particle_accelerator.ogg","pitch":1,"volume":.1},
+	],
 		"music":{
         	"music_RHP_theme":[
 			{
