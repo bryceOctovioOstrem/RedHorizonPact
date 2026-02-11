@@ -14,7 +14,7 @@
   "builtInMods": [
     "ablative_armor",
     "distributed_fire_control",
-    "targetingunit",
+    "com_stellar_refinery",
     "missleracks"
   ],
   "builtInWeapons": {
