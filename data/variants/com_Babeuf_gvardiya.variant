@@ -1,0 +1,33 @@
+{
+  "variantId": "com_Babeuf_gvardiya",
+  "hullId": "com_Babeuf",
+  "displayName": "gvardiya",
+  "goalVariant": true,
+  "fluxCapacitors": 19,
+  "fluxVents": 20,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "armoredweapons"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "lightdualmg",
+        "WS0002": "lightdualmg"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "annihilatorpod",
+        "WS0004": "annihilatorpod"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

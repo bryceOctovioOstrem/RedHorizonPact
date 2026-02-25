@@ -167,9 +167,9 @@
 		"magazines":1,
 	},		
 	"factionDoctrine":{
-		"warships":2,
+		"warships":1,
 		"carriers":4,
-		"phaseShips":1,
+		"phaseShips":2,
 		
 		"officerQuality":1,
 		"shipQuality":1,

@@ -8,13 +8,13 @@
   "width": 426,
   "center": [213, 383],
   "collisionRadius": 406.5,
-  "shieldCenter": [0, 0],
+  "shieldCenter": [-39, 0.5],
   "shieldRadius": 440.5,
   "viewOffset": 0,
   "builtInMods": [
     "advancedshieldemitter",
     "repair_gantry",
-    "rugged"
+    "fragile_subsystems"
   ],
   "builtInWings": [
     "mining_drone_wing",
@@ -232,6 +232,30 @@
         -132.5, 152.5,
         -123.5, 153
       ]
+    },
+    {
+      "id": "LB 5",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        -132, -118.5,
+        -122, -118
+      ]
+    },
+    {
+      "id": "LB 6",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        -133, 116.5,
+        -123.5, 117
+      ]
     }
   ],
   "engineSlots": [
@@ -283,7 +307,10 @@
     256, 189.5,
     185.5, 202.5,
     118, 191,
-    55, 153.5,
+    32.5, 130.5,
+    -10, 36,
+    -100, 80.5,
+    -103.5, 166,
     77, 188,
     16, 210,
     -301.5, 210,
@@ -303,7 +330,11 @@
     -350.5, -203,
     16.5, -211,
     77, -188,
-    69.5, -167,
+    16, -165.5,
+    -104, -165,
+    -102.5, -78,
+    -10.5, -34,
+    33, -133,
     118, -191,
     183, -202,
     286, -176,
