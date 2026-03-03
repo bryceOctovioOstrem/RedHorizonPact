@@ -89,7 +89,8 @@
 
 	# phase ships
 	"phaseSmall":{
-
+		"com_Babeuf_gvardiya":1,
+		"com_Babeuf_basic":2,
 		"fallback":{"phaseMedium":0.5},
 		"fallback2":{"phaseLarge":0.25},
 	},

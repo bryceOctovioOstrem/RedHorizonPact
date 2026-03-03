@@ -1,2 +1,4 @@
-added marx class
-nerfed engles class
+spritework on marx class
+spritework on engles class
+hullmod change marx class
+added new hullmods for engles and marx class

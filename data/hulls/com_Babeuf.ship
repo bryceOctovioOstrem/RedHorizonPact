@@ -1,0 +1,84 @@
+{
+  "hullName": "com_babeuf",
+  "hullId": "com_Babeuf",
+  "hullSize": "DESTROYER",
+  "spriteName": "graphics/hulls/com_babeuf.png",
+  "style": "LOW_TECH",
+  "height": 171,
+  "width": 100,
+  "center": [50, 85],
+  "collisionRadius": 87.5,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 93.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "missleracks"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 320,
+      "angle": 0,
+      "locations": [47, 0]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 320,
+      "angle": 180,
+      "locations": [-9, 0]
+    },
+    {
+      "id": "WS0003",
+      "size": "MEDIUM",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 1,
+      "angle": 0,
+      "locations": [68, 35]
+    },
+    {
+      "id": "WS0004",
+      "size": "MEDIUM",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 1,
+      "angle": 0,
+      "locations": [68, -35]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-76, 23],
+      "length": 15,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 15,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-76, -23],
+      "length": 15,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 15,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    -78, -28,
+    -54, -44.5,
+    72.5, -44.5,
+    85.5, -7.5,
+    85, 7.5,
+    72.5, 44.5,
+    -54, 45.5,
+    -80.5, 23,
+    -83, -0.5
+  ]
+}
