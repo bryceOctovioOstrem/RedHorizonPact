@@ -3,12 +3,13 @@
   "hullId": "com_Babeuf",
   "displayName": "basic",
   "goalVariant": true,
-  "fluxCapacitors": 18,
+  "fluxCapacitors": 2,
   "fluxVents": 20,
   "quality": 0,
   "permaMods": [],
   "hullMods": [
-    "heavyarmor"
+    "heavyarmor",
+    "phase_anchor"
   ],
   "weaponGroups": [
     {
@@ -16,7 +17,7 @@
       "mode": "LINKED",
       "weapons": {
         "WS0001": "lightdualmg",
-        "WS0002": "lightdualmg"
+        "WS0002": "mininglaser"
       }
     },
     {
