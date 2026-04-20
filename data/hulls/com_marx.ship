@@ -14,7 +14,7 @@
   "builtInMods": [
     "advancedshieldemitter",
     "repair_gantry",
-    "fragile_subsystems"
+    com_stellar_industry
   ],
   "builtInWings": [
     "mining_drone_wing",
