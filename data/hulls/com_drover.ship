@@ -18,7 +18,7 @@
     {
       "id": "WS0001",
       "size": "SMALL",
-      "type": "COMPOSITE",
+      "type": "BALLISTIC",
       "mount": "TURRET",
       "arc": 260,
       "angle": 50,
@@ -27,7 +27,7 @@
     {
       "id": "WS0002",
       "size": "SMALL",
-      "type": "COMPOSITE",
+      "type": "BALLISTIC",
       "mount": "TURRET",
       "arc": 260,
       "angle": -50,
@@ -36,7 +36,7 @@
     {
       "id": "WS0003",
       "size": "SMALL",
-      "type": "COMPOSITE",
+      "type": "BALLISTIC",
       "mount": "HARDPOINT",
       "arc": 1,
       "angle": 0,
@@ -45,7 +45,7 @@
     {
       "id": "WS0004",
       "size": "SMALL",
-      "type": "COMPOSITE",
+      "type": "MISSILE",
       "mount": "HARDPOINT",
       "arc": 1,
       "angle": 0,
@@ -54,7 +54,7 @@
     {
       "id": "WS0005",
       "size": "SMALL",
-      "type": "COMPOSITE",
+      "type": "MISSILE",
       "mount": "HARDPOINT",
       "arc": 1,
       "angle": 0,
@@ -63,7 +63,7 @@
     {
       "id": "WS0006",
       "size": "SMALL",
-      "type": "COMPOSITE",
+      "type": "BALLISTIC",
       "mount": "HARDPOINT",
       "arc": 1,
       "angle": 0,

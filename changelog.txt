@@ -1,4 +1,3 @@
-spritework on marx class
-spritework on engles class
-hullmod change marx class
-added new hullmods for engles and marx class
+﻿Changed fleet makeup of rhp
+add tank fighters as ships
+changed sprites to dirty steel style

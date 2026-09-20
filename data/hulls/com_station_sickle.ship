@@ -1,0 +1,314 @@
+{
+  "hullName": "com_station_sickle",
+  "hullId": "com_station_sickle",
+  "hullSize": "CAPITAL_SHIP",
+  "spriteName": "graphics/hulls/com_station_sickle.png",
+  "style": "LOW_TECH",
+  "height": 422,
+  "width": 613,
+  "center": [318.5, 316],
+  "collisionRadius": 325,
+  "shieldCenter": [1.5, 1],
+  "shieldRadius": 338.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "missleracks"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "LARGE",
+      "type": "MISSILE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [-7.5, -192]
+    },
+    {
+      "id": "WS0002",
+      "size": "LARGE",
+      "type": "MISSILE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [-71, -158]
+    },
+    {
+      "id": "WS0003",
+      "size": "LARGE",
+      "type": "MISSILE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [-121.5, -110]
+    },
+    {
+      "id": "WS0004",
+      "size": "LARGE",
+      "type": "MISSILE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [-148.5, -48.5]
+    },
+    {
+      "id": "WS0005",
+      "size": "LARGE",
+      "type": "MISSILE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [-148.5, 83]
+    },
+    {
+      "id": "WS0006",
+      "size": "LARGE",
+      "type": "MISSILE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [-122.5, 151.5]
+    },
+    {
+      "id": "WS0007",
+      "size": "LARGE",
+      "type": "MISSILE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [-80.5, 201]
+    },
+    {
+      "id": "WS0008",
+      "size": "LARGE",
+      "type": "MISSILE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [-28.5, 240.5]
+    },
+    {
+      "id": "WS0009",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 200,
+      "angle": 0,
+      "locations": [29.5, -236.5]
+    },
+    {
+      "id": "WS0010",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 200,
+      "angle": -20.5,
+      "locations": [-60, -224]
+    },
+    {
+      "id": "WS0011",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 270,
+      "angle": -39,
+      "locations": [-107, -198],
+      "renderOrderMod": 100
+    },
+    {
+      "id": "WS0012",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 200,
+      "angle": -90,
+      "locations": [-183, -111],
+      "renderOrderMod": 100
+    },
+    {
+      "id": "WS0013",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 260,
+      "angle": -90,
+      "locations": [-199.5, -80.5],
+      "renderOrderMod": 100
+    },
+    {
+      "id": "WS0014",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 280,
+      "angle": 0,
+      "locations": [1.5, 289.5],
+      "renderOrderMod": 100
+    },
+    {
+      "id": "WS0015",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 270,
+      "angle": 0,
+      "locations": [-32.5, 278.5],
+      "renderOrderMod": 200
+    },
+    {
+      "id": "WS0016",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 275,
+      "angle": 0,
+      "locations": [39.5, 298]
+    },
+    {
+      "id": "WS0017",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 270,
+      "angle": 90,
+      "locations": [-96.5, 245],
+      "renderOrderMod": 100
+    },
+    {
+      "id": "WS0018",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 270,
+      "angle": 90,
+      "locations": [-183.5, 137.5]
+    },
+    {
+      "id": "WS0019",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 270,
+      "angle": 90,
+      "locations": [-199.5, 106.5],
+      "renderOrderMod": 100
+    },
+    {
+      "id": "WS0020",
+      "size": "MEDIUM",
+      "type": "MISSILE",
+      "mount": "TURRET",
+      "arc": 160,
+      "angle": -96.5,
+      "locations": [-143.5, -224]
+    },
+    {
+      "id": "WS0021y",
+      "size": "MEDIUM",
+      "type": "MISSILE",
+      "mount": "TURRET",
+      "arc": 135,
+      "angle": -159.5,
+      "locations": [-213, -140.5]
+    },
+    {
+      "id": "WS0021",
+      "size": "MEDIUM",
+      "type": "MISSILE",
+      "mount": "TURRET",
+      "arc": 150,
+      "angle": 180,
+      "locations": [-266, -43]
+    },
+    {
+      "id": "WS0022",
+      "size": "MEDIUM",
+      "type": "MISSILE",
+      "mount": "TURRET",
+      "arc": 150,
+      "angle": 180,
+      "locations": [-266, 64.5]
+    },
+    {
+      "id": "WS0023",
+      "size": "MEDIUM",
+      "type": "MISSILE",
+      "mount": "TURRET",
+      "arc": 130,
+      "angle": 149,
+      "locations": [-212, 173.5]
+    },
+    {
+      "id": "WS0024",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "TURRET",
+      "arc": 130,
+      "angle": 88.5,
+      "locations": [-68, 291.5]
+    },
+    {
+      "id": "WS0025",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "TURRET",
+      "arc": 110,
+      "angle": 88.5,
+      "locations": [-129, 270.5]
+    },
+    {
+      "id": "WS0026",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "TURRET",
+      "arc": 160,
+      "angle": -89,
+      "locations": [-107.5, -268]
+    },
+    {
+      "id": "WS0027",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "TURRET",
+      "arc": 160,
+      "angle": -89,
+      "locations": [-7.5, -265.5]
+    },
+    {
+      "id": "WS0028",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "TURRET",
+      "arc": 100,
+      "angle": -179,
+      "locations": [-235, -176]
+    },
+    {
+      "id": "WS0029",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "TURRET",
+      "arc": 150,
+      "angle": -179,
+      "locations": [-277.5, -101]
+    }
+  ],
+  "engineSlots": [],
+  "bounds": [
+    58, -280.5,
+    80.5, -234,
+    55, -197.5,
+    -86, -134,
+    -149, -24.5,
+    -149, 59.5,
+    -53.5, 211,
+    104.5, 307,
+    -37, 313.5,
+    -199.5, 235,
+    -296.5, 93,
+    -311.5, 8.5,
+    -274.5, -137,
+    -162, -256.5,
+    -8, -292.5
+  ]
+}

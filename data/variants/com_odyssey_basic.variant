@@ -10,13 +10,20 @@
   "hullMods": [
     "missleracks",
     "heavyarmor",
-    "expanded_deck_crew"
+    "expanded_deck_crew",
+    "armoredweapons",
+    "hiressensors"
   ],
   "weaponGroups": [
     {
       "autofire": true,
       "mode": "LINKED",
       "weapons": {
+        "WS 007": "mininglaser",
+        "WS 008": "mininglaser",
+        "WS 009": "mininglaser",
+        "WS 010": "mininglaser",
+        "WS 011": "mininglaser",
         "WS 012": "mininglaser",
         "WS 013": "mininglaser",
         "WS 014": "mininglaser",
@@ -29,13 +36,7 @@
     {
       "autofire": true,
       "mode": "LINKED",
-      "weapons": {
-        "WS 007": "mininglaser",
-        "WS 008": "mininglaser",
-        "WS 009": "mininglaser",
-        "WS 010": "mininglaser",
-        "WS 011": "mininglaser"
-      }
+      "weapons": {}
     },
     {
       "autofire": false,

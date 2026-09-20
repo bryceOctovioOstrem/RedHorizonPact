@@ -1,0 +1,24 @@
+{
+  "variantId": "com_ke_frigate_basic",
+  "hullId": "com_ke_frigate",
+  "displayName": "basic",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 0,
+  "permaMods": [],
+  "hullMods": [
+    "heavyarmor"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "COM_KE_tank_gun"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

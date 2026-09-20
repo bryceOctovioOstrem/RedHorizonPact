@@ -1,0 +1,69 @@
+{
+  "variantId": "com_station_sickle_basic",
+  "hullId": "com_station_sickle",
+  "displayName": "basic",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0009": "heavymg",
+        "WS0010": "heavymg",
+        "WS0011": "heavymg",
+        "WS0012": "lightdualmg",
+        "WS0013": "lightdualmg",
+        "WS0014": "heavymg",
+        "WS0015": "lightdualmg",
+        "WS0016": "lightdualmg",
+        "WS0017": "heavymg",
+        "WS0018": "lightdualmg",
+        "WS0019": "lightdualmg"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "hammerrack",
+        "WS0002": "hammerrack",
+        "WS0003": "hammerrack",
+        "WS0004": "hammerrack",
+        "WS0005": "hammerrack",
+        "WS0006": "hammerrack",
+        "WS0007": "hammerrack",
+        "WS0008": "hammerrack"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0020": "jackhammer",
+        "WS0021": "jackhammer",
+        "WS0021y": "jackhammer",
+        "WS0022": "jackhammer",
+        "WS0023": "jackhammer",
+        "WS0026": "hammer",
+        "WS0027": "hammer",
+        "WS0028": "hammer",
+        "WS0029": "hammer"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0024": "hammer",
+        "WS0025": "hammer"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

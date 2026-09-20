@@ -14,7 +14,7 @@
   "builtInMods": [
     "advancedshieldemitter",
     "repair_gantry",
-    com_stellar_industry
+    "com_stellar_industry"
   ],
   "builtInWings": [
     "mining_drone_wing",
@@ -23,18 +23,17 @@
     "mining_drone_wing"
   ],
   "builtInWeapons": {
-    "WS0001": "hammerrack",
     "WS0012": "com_particle_accelerator"
   },
   "weaponSlots": [
     {
       "id": "WS0001",
       "size": "LARGE",
-      "type": "BUILT_IN",
+      "type": "MISSILE",
       "mount": "HARDPOINT",
       "arc": 0,
       "angle": 0,
-      "locations": [363, 0.5],
+      "locations": [365, 1],
       "renderOrderMod": 100
     },
     {
@@ -116,7 +115,7 @@
       "size": "SMALL",
       "type": "SYNERGY",
       "mount": "TURRET",
-      "arc": 150,
+      "arc": 140,
       "angle": 180,
       "locations": [35, -19]
     },
@@ -125,7 +124,7 @@
       "size": "SMALL",
       "type": "SYNERGY",
       "mount": "TURRET",
-      "arc": 150,
+      "arc": 140,
       "angle": 180,
       "locations": [36, 19]
     },

@@ -20,7 +20,7 @@
     {
       "id": "WS 001",
       "size": "SMALL",
-      "type": "ENERGY",
+      "type": "BALLISTIC",
       "mount": "TURRET",
       "arc": 120,
       "angle": 145,
@@ -29,7 +29,7 @@
     {
       "id": "WS 002",
       "size": "SMALL",
-      "type": "ENERGY",
+      "type": "BALLISTIC",
       "mount": "TURRET",
       "arc": 120,
       "angle": 155,
@@ -38,7 +38,7 @@
     {
       "id": "WS 003",
       "size": "SMALL",
-      "type": "ENERGY",
+      "type": "BALLISTIC",
       "mount": "TURRET",
       "arc": 120,
       "angle": 215,
@@ -47,7 +47,7 @@
     {
       "id": "WS 004",
       "size": "SMALL",
-      "type": "ENERGY",
+      "type": "BALLISTIC",
       "mount": "TURRET",
       "arc": 120,
       "angle": 225,
@@ -56,7 +56,7 @@
     {
       "id": "WS 005",
       "size": "SMALL",
-      "type": "ENERGY",
+      "type": "BALLISTIC",
       "mount": "TURRET",
       "arc": 120,
       "angle": 90,

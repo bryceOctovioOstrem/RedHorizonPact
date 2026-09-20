@@ -1,0 +1,24 @@
+{
+  "variantId": "com_HE_frigate_basic",
+  "hullId": "com_HE_frigate",
+  "displayName": "New Variant",
+  "goalVariant": false,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "heavyarmor"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "COM_Tank_HE_gun"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

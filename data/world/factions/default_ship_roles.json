@@ -4,6 +4,9 @@
 	"combatSmallForSmallFleet":{
 		"com_brawler_basic":2,
 		"com_brawler_gvardiya":1,
+		"com_energy_frigate_basic":1,
+		"com_ke_frigate_basic":1,
+		"com_HE_frigate_basic":1,
 		"fallback":{"combatSmall":1},
 	},
 	"combatSmall":{
@@ -11,6 +14,9 @@
 		"com_brawler_gvardiya":1,
 		"com_hammerhead_common":2,
 		"com_hammerhead_gvardiya":1,
+		"com_energy_frigate_basic":1,
+		"com_ke_frigate_basic":1,
+		"com_HE_frigate_basic":1,
 		"fallback":{"combatMedium":0.5},
 	},
 	"combatMedium":{

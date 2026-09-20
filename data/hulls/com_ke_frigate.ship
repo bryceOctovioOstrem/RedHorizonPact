@@ -1,0 +1,45 @@
+{
+  "hullName": "com_ke_frigate",
+  "hullId": "com_ke_frigate",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/hulls/com_972_sprite.png",
+  "style": "LOW_TECH",
+  "height": 35,
+  "width": 20,
+  "center": [10, 17.5],
+  "collisionRadius": 18,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 19,
+  "viewOffset": 0,
+  "builtInWeapons": {
+    "WS0001": "COM_KE_tank_gun"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 0,
+      "locations": [1.5, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-17.5, -0],
+      "length": 1,
+      "width": 1,
+      "angle": 180,
+      "contrailSize": 1,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    -14, -9,
+    12.5, -9,
+    17.5, -0,
+    12.5, 9,
+    -14, 9
+  ]
+}

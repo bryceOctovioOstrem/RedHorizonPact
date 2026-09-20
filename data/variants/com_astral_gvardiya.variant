@@ -3,7 +3,7 @@
   "hullId": "com_astral",
   "displayName": "Attack",
   "goalVariant": true,
-  "fluxCapacitors": 36,
+  "fluxCapacitors": 31,
   "fluxVents": 0,
   "quality": 1,
   "permaMods": [],
@@ -16,11 +16,11 @@
       "autofire": true,
       "mode": "LINKED",
       "weapons": {
-        "WS 001": "lrpdlaser",
-        "WS 002": "lrpdlaser",
-        "WS 003": "lrpdlaser",
-        "WS 004": "lrpdlaser",
-        "WS 005": "lrpdlaser"
+        "WS 001": "lightdualmg",
+        "WS 002": "lightdualmg",
+        "WS 003": "lightdualmg",
+        "WS 004": "lightdualmg",
+        "WS 005": "lightdualmg"
       }
     },
     {

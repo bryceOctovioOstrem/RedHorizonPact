@@ -4,7 +4,7 @@
   "displayName": "basic",
   "goalVariant": true,
   "fluxCapacitors": 50,
-  "fluxVents": 33,
+  "fluxVents": 37,
   "quality": 0,
   "permaMods": [],
   "hullMods": [
@@ -15,7 +15,12 @@
       "autofire": true,
       "mode": "ALTERNATING",
       "weapons": {
-        "WS 006": "lightdualmg",
+        "WS 001": "mininglaser",
+        "WS 002": "mininglaser",
+        "WS 003": "mininglaser",
+        "WS 004": "mininglaser",
+        "WS 005": "mininglaser",
+        "WS 006": "mininglaser",
         "WS 007": "lightdualmg",
         "WS 008": "lightdualmg"
       }
@@ -23,13 +28,7 @@
     {
       "autofire": true,
       "mode": "LINKED",
-      "weapons": {
-        "WS 001": "mininglaser",
-        "WS 002": "mininglaser",
-        "WS 003": "mininglaser",
-        "WS 004": "mininglaser",
-        "WS 005": "mininglaser"
-      }
+      "weapons": {}
     },
     {
       "autofire": false,
