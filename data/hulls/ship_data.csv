@@ -20,8 +20,11 @@ A T 185,com_HE_frigate,Frigate,RHB,burndrive,2,350,190,150,,40,8,,65,90,150,200,
 A T 972,com_ke_frigate,Frigate,RHB,burndrive,2,350,200,150,,40,8,,65,90,150,200,400,80,NONE,,0,0,0,,,4,4,30,15,1,15,7,2000,5,20,180,0.25,1,1,,,,,,,,"pirates, com_bp",,,,0.75,2,2,,20
 A T 406,com_energy_frigate,Frigate,RHB,burndrive,2,350,180,150,,40,8,,65,90,150,200,400,80,NONE,,0,0,0,,,4,4,30,15,1,15,7,2000,5,20,180,0.25,1,1,,,,,,,,"pirates, com_bp",,,,0.75,2,2,,21
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-A Manifesto Orbital Station,com_station_center_one,Orbital Station,RHB,,50,80000,2000,17000,15000,600,302,,30,200,200,2,2,5000,NONE,,0,0,0,,,0,0,0,0,1,0,0,500000,10,10,,,50,50,,,,,,,"STATION, UNBOARDABLE",codex_unlockable,,,,0,,,,22
+,com_station_center_armor,Orbital Station,RHB,,50,40000,10000,17000,15000,600,302,,30,200,200,2,2,5000,NONE,,0,0,0,,,0,0,0,0,1,0,0,500000,10,10,,,50,50,,,,,,,"STATION, UNBOARDABLE",codex_unlockable,,,,0,,,,22
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,com_station_hammer,Weapon Platform,RHB,forgevats_station,1,10000,1500,15000,25000,1000,222,2,0,0,0,10,10,800,NONE,,0,0,0,,,0,0,0,0,1,0,,500000,,1,,,0,0,,,,,,,"UNBOARDABLE, HIDE_IN_CODEX, MODULE",,,,,0.5,2,2,,2220
-,com_station_sickle,Weapon Platform,RHB,forgevats_station,1,20000,1750,15000,25000,1000,252,2,0,0,0,10,10,800,NONE,,0,0,0,,,0,0,0,0,1,0,,500000,,1,,,0,0,,,,,,,"UNBOARDABLE, HIDE_IN_CODEX, MODULE",,,,,0.5,2,2,,2220
+,com_station_hammer,Weapon Platform,RHB,forgevats_station,1,60000,15000,15000,25000,1000,222,2,0,0,0,10,10,800,NONE,,0,0,0,,,0,0,0,0,1,0,,500000,,1,,,0,0,,,,,,,"UNBOARDABLE, HIDE_IN_CODEX, MODULE",,,,,0.5,2,2,,2220
+,com_station_sickle,Weapon Platform,RHB,forgevats_station,1,60000,15000,15000,25000,1000,252,,0,0,0,10,10,800,NONE,,0,0,0,,,0,0,0,0,1,0,,500000,,1,,,0,0,,,,,,,"UNBOARDABLE, HIDE_IN_CODEX, MODULE",,,,,0.5,2,2,,2220
+A Manifesto Orbital Station,com_station_center_one,Orbital Station,RHB,forgevats_station,100,40000,1600,1000,2500,100,0,,30,200,200,2,2,5000,NONE,,0,0,0,,,0,0,0,0,1,0,0,500000,10,10,,,50,50,,,,,,,"STATION, UNBOARDABLE",,,,,0,,,,2002
+A Manifesto Battlestation,com_station_center_two,Battle Station,RHB,forgevats_station,200,40000,1600,1000,2500,100,0,,30,200,200,2,2,5000,NONE,,0,0,0,,,0,0,0,0,1,0,0,500000,10,10,,,75,75,,,,,,,"STATION, UNBOARDABLE",,,,,0,,,,2002
+A Manifesto Starfortress,com_station_center_three,Star Fortress,RHB,forgevats_station,400,40000,1600,1000,2500,100,0,,30,200,200,2,2,5000,NONE,,0,0,0,,,0,0,0,0,1,0,0,500000,10,10,,,100,100,,,,,,,"STATION, UNBOARDABLE",,,,,0,,,,2002

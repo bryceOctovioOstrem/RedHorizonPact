@@ -12,8 +12,10 @@
   "shieldRadius": 319.5,
   "viewOffset": 0,
   "builtInMods": [
-    "do_not_fire_through",
-    "vastbulk"
+    "supercomputer",
+    "always_detaches",
+    "ablative_armor",
+    "distributed_fire_control"
   ],
   "weaponSlots": [
     {

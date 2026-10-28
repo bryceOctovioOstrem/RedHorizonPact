@@ -12,7 +12,10 @@
   "shieldRadius": 338.5,
   "viewOffset": 0,
   "builtInMods": [
-    "missleracks"
+    "missleracks",
+    "supercomputer",
+    "always_detaches",
+    "ablative_armor"
   ],
   "weaponSlots": [
     {

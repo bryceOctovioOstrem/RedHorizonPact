@@ -9,91 +9,9 @@
   "permaMods": [],
   "hullMods": [],
   "weaponGroups": [
-    {
-      "autofire": false,
-      "mode": "LINKED",
-      "weapons": {
-        "WS0001": "lightdualmg",
-        "WS0002": "lightdualmg",
-        "WS0003": "lightdualmg",
-        "WS0004": "lightdualmg",
-        "WS0007": "lightdualmg",
-        "WS0008": "lightdualmg",
-        "WS0009": "lightdualmg",
-        "WS0010": "lightdualmg",
-        "WS0013": "lightdualmg",
-        "WS0014": "lightdualmg",
-        "WS0017": "lightdualmg",
-        "WS0018": "lightdualmg",
-        "WS0019": "heavymg",
-        "WS0020": "heavymg",
-        "WS0021": "heavymg",
-        "WS0022": "heavymg",
-        "WS0023": "heavymg",
-        "WS0024": "heavymg",
-        "WS0025": "heavymg",
-        "WS0026": "heavymg",
-        "WS0037": "mininglaser",
-        "WS0038": "mininglaser"
-      }
-    },
-    {
-      "autofire": false,
-      "mode": "LINKED",
-      "weapons": {
-        "WS0012": "jackhammer",
-        "WS0030": "jackhammer"
-      }
-    },
-    {
-      "autofire": false,
-      "mode": "LINKED",
-      "weapons": {
-        "WS0011": "jackhammer",
-        "WS0029": "jackhammer"
-      }
-    },
-    {
-      "autofire": false,
-      "mode": "LINKED",
-      "weapons": {
-        "WS0027": "com_duel_recoiless",
-        "WS0028": "com_duel_recoiless",
-        "WS0031": "com_duel_recoiless",
-        "WS0032": "com_duel_recoiless"
-      }
-    },
-    {
-      "autofire": false,
-      "mode": "LINKED",
-      "weapons": {
-        "WS0033": "shredder",
-        "WS0034": "shredder",
-        "WS0035": "shredder",
-        "WS0036": "shredder"
-      }
-    },
-    {
-      "autofire": false,
-      "mode": "LINKED",
-      "weapons": {
-        "WS0039": "com_mark9",
-        "WS0040": "com_mark9",
-        "WS0041": "com_mark9",
-        "WS0042": "com_mark9"
-      }
-    },
-    {
-      "autofire": false,
-      "mode": "LINKED",
-      "weapons": {
-        "WS0005": "hammer",
-        "WS0006": "hammer",
-        "WS0015": "hammer",
-        "WS0016": "hammer"
-      }
-    }
   ],
-  "modules": [],
+  "modules": [
+    {"WS0001": "com_station_center_armor"}
+  ],
   "wings": []
 }

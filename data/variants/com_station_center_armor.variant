@@ -1,6 +1,6 @@
 {
-  "variantId": "com_station_center_one_test",
-  "hullId": "com_station_center_one",
+"variantId": "com_station_center_armor",
+"hullId": "com_station_center_armor",
   "displayName": "teir 1",
   "goalVariant": true,
   "fluxCapacitors": 0,
@@ -94,9 +94,6 @@
       }
     }
   ],
-  "modules": [
-    {"WS0043": "com_station_hammer_basic"},
-		{"WS0044": "com_station_sickle_basic"}
-  ],
+  "modules": [],
   "wings": []
 }

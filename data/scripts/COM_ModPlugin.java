@@ -5,7 +5,7 @@ import java.util.List;
 import com.fs.starfarer.api.impl.campaign.ids.Factions;
 //import data.strings.descriptions;
 import data.scripts.relations.COM_Relations;
-//import data.scripts.campaign.econ.DR_industries;
+import data.scripts.campaign.econ.com_industries;
 import com.fs.starfarer.api.campaign.*;
 import com.fs.starfarer.api.BaseModPlugin;
 import com.fs.starfarer.api.Global;
@@ -290,7 +290,7 @@ public class COM_ModPlugin extends BaseModPlugin {
         market.addIndustry(Industries.HEAVYINDUSTRY);
         market.addIndustry(Industries.SPACEPORT);
 
-        market.addIndustry(Industries.BATTLESTATION_HIGH);
+        market.addIndustry(com_industries.COM_STATION3);
 
 
         // market.getIndustry(Industries.MILITARYBASE).setAICoreId(Commodities.GAMMA_CORE);
@@ -357,7 +357,7 @@ public class COM_ModPlugin extends BaseModPlugin {
         market.addIndustry(Industries.FARMING);
         market.addIndustry(Industries.SPACEPORT);
 
-        market.addIndustry(Industries.ORBITALSTATION_HIGH);
+        market.addIndustry(com_industries.COM_STATION1);
 
 
         // market.getIndustry(Industries.MILITARYBASE).setAICoreId(Commodities.GAMMA_CORE);

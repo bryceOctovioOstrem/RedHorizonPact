@@ -1,8 +1,8 @@
 {
-  "hullName": "com_station_center",
-  "hullId": "com_station_center",
+  "hullName": "com_station_center_armor",
+  "hullId": "com_station_center_armor",
   "hullSize": "CAPITAL_SHIP",
-  "spriteName": "graphics/hulls/com_station_center.png",
+  "spriteName": "graphics/hulls/com_station_center_armor.png",
   "style": "LOW_TECH",
   "height": 642,
   "width": 360,
@@ -12,7 +12,11 @@
   "shieldRadius": 330,
   "viewOffset": 0,
   "builtInMods": [
-    "anchorrotation",
+    "supercomputer",
+    "always_detaches",
+    "missleracks",
+    "ablative_armor",
+    "distributed_fire_control",
     "do_not_fire_through"
   ],
   "weaponSlots": [
@@ -451,24 +455,6 @@
       "arc": 0,
       "angle": -90,
       "locations": [107.5, -173.5]
-    },
-    {
-      "id": "WS0049",
-      "size": "LARGE",
-      "type": "STATION_MODULE",
-      "mount": "TURRET",
-      "arc": 0,
-      "angle": 180,
-      "locations": [-426.5, -1.5]
-    },
-    {
-      "id": "WS0050",
-      "size": "LARGE",
-      "type": "STATION_MODULE",
-      "mount": "TURRET",
-      "arc": 0,
-      "angle": 0.5,
-      "locations": [437, -1.5]
     }
   ],
   "engineSlots": [],
