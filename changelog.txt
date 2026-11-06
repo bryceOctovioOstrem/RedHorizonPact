@@ -1,3 +1,4 @@
 ﻿Changed fleet makeup of rhp
 add tank fighters as ships
 changed sprites to dirty steel style
+fixed faction description
