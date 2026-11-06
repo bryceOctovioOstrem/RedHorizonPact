@@ -1,0 +1,25 @@
+id,name,cost mult,build time,income,upkeep,downgrade,upgrade,tags,data,image,plugin,desc,order,disruptDanger
+com_station,Manifesto Orbital station ,45,80,,3,,com_battle,"station, sub_item, unraidable, structure","{
+radius:80,
+variant:com_station_center_one_basic,
+fleetName:Orbital Station,
+}",graphics/icons/industry/orbital_station.png,com.fs.starfarer.api.impl.campaign.econ.impl.OrbitalStation,"A basic communist orbital station with standard issue defences, urban agricultural, industry, and housing.
+Must be reduced before invasions or bombardment can be attempted.",,
+com_battle,Manifesto  Battlestation,100,120,,4,com_station,com_starFortress,"station, battlestation, unraidable, structure","{
+radius:80,
+variant:com_station_battlestation,
+fleetName:Battlestation,
+}",graphics/icons/industry/battlestation.png,com.fs.starfarer.api.impl.campaign.econ.impl.OrbitalStation,"A medium communist  space station made of by adding a hammer module onto a standard manifesto station.
+
+It must be reduced before invasions or bombardment can be attempted.
+
+
+",,
+com_starFortress,Manifesto Star Fortress ,200,200,,5,com_battle,,"station, starfortress, unraidable, structure","{
+radius:80,
+variant:com_station_starfortress,
+fleetName:Star Fortress
+}",graphics/icons/industry/battlestation.png,com.fs.starfarer.api.impl.campaign.econ.impl.OrbitalStation,"A large communist space station made by adding a sickle module onto a manifesto class station.
+
+It must be reduced before invasions or bombardment can be attempted.
+",,

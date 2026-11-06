@@ -1,0 +1,17 @@
+{
+  "variantId": "com_station_center_one_basic",
+  "hullId": "com_station_center_one",
+  "displayName": "teir 1",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+  ],
+  "modules": [
+    {"WS0001": "com_station_center_armor"}
+  ],
+  "wings": []
+}

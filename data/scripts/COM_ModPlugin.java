@@ -5,7 +5,7 @@ import java.util.List;
 import com.fs.starfarer.api.impl.campaign.ids.Factions;
 //import data.strings.descriptions;
 import data.scripts.relations.COM_Relations;
-//import data.scripts.campaign.econ.DR_industries;
+import data.scripts.campaign.econ.com_industries;
 import com.fs.starfarer.api.campaign.*;
 import com.fs.starfarer.api.BaseModPlugin;
 import com.fs.starfarer.api.Global;
@@ -126,14 +126,14 @@ public class COM_ModPlugin extends BaseModPlugin {
         market.addIndustry(Industries.STARFORTRESS_HIGH);
 
 
-        market.getIndustry(Industries.HIGHCOMMAND).setAICoreId(Commodities.BETA_CORE);
-		market.getIndustry(Industries.POPULATION).setAICoreId(Commodities.GAMMA_CORE);
+        //market.getIndustry(Industries.HIGHCOMMAND).setAICoreId(Commodities.BETA_CORE);
+		//market.getIndustry(Industries.POPULATION).setAICoreId(Commodities.GAMMA_CORE);
 		//market.getIndustry(Industries.HEAVYBATTERIES).setAICoreId(Commodities.GAMMA_CORE);
-        market.getIndustry(Industries.FUELPROD).setAICoreId(Commodities.GAMMA_CORE);
-		market.getIndustry(Industries.ORBITALWORKS).setAICoreId(Commodities.BETA_CORE);
-		market.getIndustry(Industries.LIGHTINDUSTRY).setAICoreId(Commodities.GAMMA_CORE);
-        market.getIndustry(Industries.SPACEPORT).setAICoreId(Commodities.GAMMA_CORE);
-        market.getIndustry(Industries.STARFORTRESS_HIGH).setAICoreId(Commodities.BETA_CORE);
+       // market.getIndustry(Industries.FUELPROD).setAICoreId(Commodities.GAMMA_CORE);
+		// market.getIndustry(Industries.ORBITALWORKS).setAICoreId(Commodities.BETA_CORE);
+		// market.getIndustry(Industries.LIGHTINDUSTRY).setAICoreId(Commodities.GAMMA_CORE);
+        // market.getIndustry(Industries.SPACEPORT).setAICoreId(Commodities.GAMMA_CORE);
+        // market.getIndustry(Industries.STARFORTRESS_HIGH).setAICoreId(Commodities.BETA_CORE);
 
          market.getTariff().modifyFlat("generator", 1.0f);
         //planet.setMarket(market);
@@ -209,14 +209,14 @@ public class COM_ModPlugin extends BaseModPlugin {
         market.setSurveyLevel(MarketAPI.SurveyLevel.FULL);
 
 
-        market.getIndustry(Industries.MILITARYBASE).setAICoreId(Commodities.GAMMA_CORE);
-		market.getIndustry(Industries.POPULATION).setAICoreId(Commodities.GAMMA_CORE);
-		market.getIndustry(Industries.HEAVYBATTERIES).setAICoreId(Commodities.GAMMA_CORE);
-        market.getIndustry(Industries.BATTLESTATION).setAICoreId(Commodities.GAMMA_CORE);
-        market.getIndustry(Industries.MINING).setAICoreId(Commodities.GAMMA_CORE);
-		market.getIndustry(Industries.HEAVYINDUSTRY).setAICoreId(Commodities.BETA_CORE);
-		market.getIndustry(Industries.REFINING).setAICoreId(Commodities.GAMMA_CORE);
-        market.getIndustry(Industries.MEGAPORT).setAICoreId(Commodities.GAMMA_CORE);
+        // market.getIndustry(Industries.MILITARYBASE).setAICoreId(Commodities.GAMMA_CORE);
+		// market.getIndustry(Industries.POPULATION).setAICoreId(Commodities.GAMMA_CORE);
+		// market.getIndustry(Industries.HEAVYBATTERIES).setAICoreId(Commodities.GAMMA_CORE);
+        // market.getIndustry(Industries.BATTLESTATION).setAICoreId(Commodities.GAMMA_CORE);
+        // market.getIndustry(Industries.MINING).setAICoreId(Commodities.GAMMA_CORE);
+		// market.getIndustry(Industries.HEAVYINDUSTRY).setAICoreId(Commodities.BETA_CORE);
+		// market.getIndustry(Industries.REFINING).setAICoreId(Commodities.GAMMA_CORE);
+        // market.getIndustry(Industries.MEGAPORT).setAICoreId(Commodities.GAMMA_CORE);
 
         ZinovievStation.setCustomDescriptionId("com_station_desc");
 
@@ -290,17 +290,17 @@ public class COM_ModPlugin extends BaseModPlugin {
         market.addIndustry(Industries.HEAVYINDUSTRY);
         market.addIndustry(Industries.SPACEPORT);
 
-        market.addIndustry(Industries.BATTLESTATION_HIGH);
+        market.addIndustry(com_industries.COM_STATION3);
 
 
-        market.getIndustry(Industries.MILITARYBASE).setAICoreId(Commodities.GAMMA_CORE);
-		market.getIndustry(Industries.POPULATION).setAICoreId(Commodities.GAMMA_CORE);
-		market.getIndustry(Industries.GROUNDDEFENSES).setAICoreId(Commodities.GAMMA_CORE);
-        market.getIndustry(Industries.MINING).setAICoreId(Commodities.GAMMA_CORE);
-		market.getIndustry(Industries.HEAVYINDUSTRY).setAICoreId(Commodities.BETA_CORE);
-		market.getIndustry(Industries.BATTLESTATION_HIGH).setAICoreId(Commodities.BETA_CORE);
-		//market.getIndustry(Industries.LIGHTINDUSTRY).setAICoreId(Commodities.GAMMA_CORE);
-        market.getIndustry(Industries.SPACEPORT).setAICoreId(Commodities.GAMMA_CORE);
+        // market.getIndustry(Industries.MILITARYBASE).setAICoreId(Commodities.GAMMA_CORE);
+		// market.getIndustry(Industries.POPULATION).setAICoreId(Commodities.GAMMA_CORE);
+		// market.getIndustry(Industries.GROUNDDEFENSES).setAICoreId(Commodities.GAMMA_CORE);
+        // market.getIndustry(Industries.MINING).setAICoreId(Commodities.GAMMA_CORE);
+		// market.getIndustry(Industries.HEAVYINDUSTRY).setAICoreId(Commodities.BETA_CORE);
+		// market.getIndustry(Industries.BATTLESTATION_HIGH).setAICoreId(Commodities.BETA_CORE);
+		// //market.getIndustry(Industries.LIGHTINDUSTRY).setAICoreId(Commodities.GAMMA_CORE);
+        // market.getIndustry(Industries.SPACEPORT).setAICoreId(Commodities.GAMMA_CORE);
 
          market.getTariff().modifyFlat("generator", 1.0f);
         //planet.setMarket(market);
@@ -357,17 +357,17 @@ public class COM_ModPlugin extends BaseModPlugin {
         market.addIndustry(Industries.FARMING);
         market.addIndustry(Industries.SPACEPORT);
 
-        market.addIndustry(Industries.ORBITALSTATION_HIGH);
+        market.addIndustry(com_industries.COM_STATION1);
 
 
-        market.getIndustry(Industries.MILITARYBASE).setAICoreId(Commodities.GAMMA_CORE);
-		market.getIndustry(Industries.POPULATION).setAICoreId(Commodities.GAMMA_CORE);
-		market.getIndustry(Industries.GROUNDDEFENSES).setAICoreId(Commodities.GAMMA_CORE);
-        market.getIndustry(Industries.FARMING).setAICoreId(Commodities.GAMMA_CORE);
-        //market.getIndustry(Industries.ORGANICS_COMMONG).setAICoreId(Commodities.GAMMA_CORE);
-		market.getIndustry(Industries.ORBITALSTATION_HIGH).setAICoreId(Commodities.BETA_CORE);
-		//market.getIndustry(Industries.LIGHTINDUSTRY).setAICoreId(Commodities.GAMMA_CORE);
-        market.getIndustry(Industries.SPACEPORT).setAICoreId(Commodities.GAMMA_CORE);
+        // market.getIndustry(Industries.MILITARYBASE).setAICoreId(Commodities.GAMMA_CORE);
+		// market.getIndustry(Industries.POPULATION).setAICoreId(Commodities.GAMMA_CORE);
+		// market.getIndustry(Industries.GROUNDDEFENSES).setAICoreId(Commodities.GAMMA_CORE);
+        // market.getIndustry(Industries.FARMING).setAICoreId(Commodities.GAMMA_CORE);
+        // //market.getIndustry(Industries.ORGANICS_COMMONG).setAICoreId(Commodities.GAMMA_CORE);
+		// market.getIndustry(Industries.ORBITALSTATION_HIGH).setAICoreId(Commodities.BETA_CORE);
+		// //market.getIndustry(Industries.LIGHTINDUSTRY).setAICoreId(Commodities.GAMMA_CORE);
+        // market.getIndustry(Industries.SPACEPORT).setAICoreId(Commodities.GAMMA_CORE);
 
          market.getTariff().modifyFlat("generator", 1.0f);
         //planet.setMarket(market);

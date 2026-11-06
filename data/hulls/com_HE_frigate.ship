@@ -1,0 +1,47 @@
+{
+  "hullName": "New Hull",
+  "hullId": "com_HE_frigate",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/hulls/COM_HE_Fighter.png",
+  "style": "LOW_TECH",
+  "height": 44,
+  "width": 29,
+  "center": [14.5, 22],
+  "collisionRadius": 25,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 27.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "armoredweapons"
+  ],
+  "builtInWeapons": {
+    "WS0001": "COM_Tank_HE_gun"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 0,
+      "locations": [1, 0.5]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-20, 0.5],
+      "length": 1,
+      "width": 1,
+      "angle": 180,
+      "contrailSize": 1,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    -17, -14,
+    21, -5.5,
+    21, 5.5,
+    -17, 14
+  ]
+}

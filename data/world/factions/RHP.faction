@@ -109,9 +109,6 @@
 			"mjolnir",
 
 
-
-
-
 			"phasebeam",
 			"lightmg",
             "lightdualmg",
@@ -167,8 +164,8 @@
 		"magazines":1,
 	},		
 	"factionDoctrine":{
-		"warships":1,
-		"carriers":4,
+		"warships":4,
+		"carriers":1,
 		"phaseShips":2,
 		
 		"officerQuality":1,

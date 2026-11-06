@@ -2,7 +2,7 @@
     "playableFaction":true,
     "corvusCompatible":true,
     "hostileToAll":3,
-    "rebelFleetSuffix":"anti-revolutionaries",
+    "rebelFleetSuffix":"reactionaries",
     
     "directoryUseShortName":true,
     "difficultyString":"hard",
@@ -55,7 +55,7 @@
 	],
     
     "startSpecialItems":[
-        [["RHP_package", ""]],
+        [["RHP_package", ""]]
     ],
 
     "defenceStations":[

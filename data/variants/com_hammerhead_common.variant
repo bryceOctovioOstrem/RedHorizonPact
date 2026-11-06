@@ -3,20 +3,23 @@
   "hullId": "com_hammerhead",
   "displayName": "common",
   "goalVariant": true,
-  "fluxCapacitors": 20,
+  "fluxCapacitors": 18,
   "fluxVents": 20,
   "quality": 0,
   "permaMods": [],
   "hullMods": [
-    "heavyarmor"
+    "heavyarmor",
+    "hiressensors"
   ],
   "weaponGroups": [
     {
       "autofire": true,
       "mode": "LINKED",
       "weapons": {
-        "WS0001": "lightmg",
-        "WS0002": "lightmg"
+        "WS0001": "mininglaser",
+        "WS0002": "mininglaser",
+        "WS0007": "mininglaser",
+        "WS0008": "mininglaser"
       }
     },
     {
@@ -38,10 +41,7 @@
     {
       "autofire": true,
       "mode": "LINKED",
-      "weapons": {
-        "WS0007": "mininglaser",
-        "WS0008": "mininglaser"
-      }
+      "weapons": {}
     }
   ],
   "modules": [],

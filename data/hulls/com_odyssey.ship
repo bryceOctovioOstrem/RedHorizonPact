@@ -12,8 +12,7 @@
   "shieldRadius": 270,
   "viewOffset": 0,
   "builtInMods": [
-    "hiressensors",
-    "eccm"
+    "missleracks"
   ],
   "weaponSlots": [
     {
@@ -73,7 +72,7 @@
     {
       "id": "WS 007",
       "size": "SMALL",
-      "type": "ENERGY",
+      "type": "BALLISTIC",
       "mount": "TURRET",
       "arc": 270,
       "angle": 0,
@@ -82,7 +81,7 @@
     {
       "id": "WS 008",
       "size": "SMALL",
-      "type": "ENERGY",
+      "type": "BALLISTIC",
       "mount": "TURRET",
       "arc": 170,
       "angle": -60,
@@ -91,7 +90,7 @@
     {
       "id": "WS 009",
       "size": "SMALL",
-      "type": "ENERGY",
+      "type": "BALLISTIC",
       "mount": "TURRET",
       "arc": 170,
       "angle": -70,
@@ -100,7 +99,7 @@
     {
       "id": "WS 010",
       "size": "SMALL",
-      "type": "ENERGY",
+      "type": "BALLISTIC",
       "mount": "TURRET",
       "arc": 210,
       "angle": 90,
@@ -109,7 +108,7 @@
     {
       "id": "WS 011",
       "size": "SMALL",
-      "type": "ENERGY",
+      "type": "BALLISTIC",
       "mount": "TURRET",
       "arc": 150,
       "angle": 70,
@@ -118,7 +117,7 @@
     {
       "id": "WS 012",
       "size": "SMALL",
-      "type": "ENERGY",
+      "type": "BALLISTIC",
       "mount": "TURRET",
       "arc": 150,
       "angle": -90,
@@ -127,7 +126,7 @@
     {
       "id": "WS 013",
       "size": "SMALL",
-      "type": "ENERGY",
+      "type": "BALLISTIC",
       "mount": "TURRET",
       "arc": 150,
       "angle": 100,
@@ -136,7 +135,7 @@
     {
       "id": "WS 014",
       "size": "SMALL",
-      "type": "ENERGY",
+      "type": "BALLISTIC",
       "mount": "TURRET",
       "arc": 210,
       "angle": -90,
@@ -145,7 +144,7 @@
     {
       "id": "WS 015",
       "size": "SMALL",
-      "type": "ENERGY",
+      "type": "BALLISTIC",
       "mount": "TURRET",
       "arc": 150,
       "angle": 260,
@@ -154,7 +153,7 @@
     {
       "id": "WS 016",
       "size": "SMALL",
-      "type": "ENERGY",
+      "type": "BALLISTIC",
       "mount": "TURRET",
       "arc": 150,
       "angle": 100,
@@ -163,7 +162,7 @@
     {
       "id": "WS 017",
       "size": "SMALL",
-      "type": "ENERGY",
+      "type": "BALLISTIC",
       "mount": "TURRET",
       "arc": 120,
       "angle": 170,
@@ -172,7 +171,7 @@
     {
       "id": "WS 018",
       "size": "SMALL",
-      "type": "ENERGY",
+      "type": "BALLISTIC",
       "mount": "TURRET",
       "arc": 120,
       "angle": 190,
