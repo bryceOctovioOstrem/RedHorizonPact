@@ -2,3 +2,4 @@
 add tank fighters as ships
 changed sprites to dirty steel style
 fixed faction description
+added manifesto class station
