@@ -1,14 +1,14 @@
 {
     "playableFaction":true,
     "corvusCompatible":true,
-    "hostileToAll":3,
+    "hostileToAll":2,
     "rebelFleetSuffix":"reactionaries",
     
     "directoryUseShortName":true,
     "difficultyString":"hard",
 
     "startRelationships":{  },
-    "maxRelationships":{ "tritachyon":-0.5},
+    "maxRelationships":{ "tritachyon":-0.5, "remnant":-0.50,"persean":-0.50,"luddic_church":-0.50 },
     "diplomacyPositiveChance":{ "tritachyon":0.8 },
     "diplomacyNegativeChance":{ "tritachyon":1.2 },
     
@@ -20,7 +20,7 @@
         "ideological":1.0,
         "diplomatic":-1.0
     },
-    "diplomacyTraits":["selfrighteous", "law_and_order","paranoid","devious","foreverwar","selfrighteous"],
+    "diplomacyTraits":["selfrighteous", "law_and_order","paranoid","devious","foreverwar"],
     
     # chance of the faction being picked to send a colony expedition. Default 0 (disabled)
     "colonyExpeditionChance":1.5,	# be fruitful and multiply

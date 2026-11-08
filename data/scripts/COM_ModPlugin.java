@@ -34,7 +34,13 @@ public class COM_ModPlugin extends BaseModPlugin {
       ChunqiaoGen();
       DniproviaGen();
       BinhdoGen();
+    factionRelations(); // sets faction relations 
 		
+   }
+
+   private void factionRelations() {
+     COM_Relations.generate(Global.getSector());
+
    }
         private void ZinovievGen() {
         StarSystemAPI system = Global.getSector().createStarSystem("zinoviev");

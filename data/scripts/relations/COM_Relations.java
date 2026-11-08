@@ -12,15 +12,18 @@ public class COM_Relations implements SectorGeneratorPlugin {
     public static void generate(SectorAPI sector) {
         FactionAPI RHP = sector.getFaction("RHP"); // assigns a faction variable
         SharedData.getData().getPersonBountyEventData().addParticipatingFaction("RHP");
-        RHP.setRelationship(Factions.LUDDIC_CHURCH, -0.5f);
+        RHP.setRelationship(Factions.LUDDIC_CHURCH, -0.6f);
 	RHP.setRelationship(Factions.INDEPENDENT,-0.5f);
-        RHP.setRelationship(Factions.LUDDIC_PATH, -0.5f);
+        RHP.setRelationship(Factions.LUDDIC_PATH, -0.7f);
         RHP.setRelationship(Factions.PERSEAN, -0.5f);
-        RHP.setRelationship(Factions.PIRATES, 0.5f);
+        RHP.setRelationship(Factions.PIRATES, -0.5f);
         RHP.setRelationship(Factions.PLAYER, -0.5f);
-        RHP.setRelationship("sindrian_diktat", -0.5f);
+        RHP.setRelationship("sindrian_diktat", -0.6f);
         RHP.setRelationship("hegemony", -0.5f);
         RHP.setRelationship("tritachyon", -0.99f); 
+        //my mods
+        RHP.setRelationship("DR",-0.8f);    
+        RHP.setRelationship("FFA", -0.95f); 
         // mods
         RHP.setRelationship("hcok",-0.5f);    
         RHP.setRelationship("ironshell", -0.5f);       
