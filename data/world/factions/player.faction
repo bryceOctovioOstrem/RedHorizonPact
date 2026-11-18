@@ -1,4 +1,46 @@
 {
+
+{
+    "logo": "graphics/factions/custom/player_logo18_flag.png",
+    "crest": "graphics/factions/custom/player_logo18_crest.png"
+},
+{
+    "logo": "graphics/factions/custom/player_logo19_flag.png",
+    "crest": "graphics/factions/custom/player_logo19_crest.png"
+},
+{
+    "logo": "graphics/factions/custom/player_logo20_flag.png",
+    "crest": "graphics/factions/custom/player_logo20_crest.png"
+},
+{
+    "logo": "graphics/factions/custom/player_logo21_flag.png",
+    "crest": "graphics/factions/custom/player_logo21_crest.png"
+},
+{
+    "logo": "graphics/factions/custom/player_logo22_flag.png",
+    "crest": "graphics/factions/custom/player_logo22_crest.png"
+},
+{
+    "logo": "graphics/factions/custom/player_logo23_flag.png",
+    "crest": "graphics/factions/custom/player_logo23_crest.png"
+},
+{
+    "logo": "graphics/factions/custom/player_logo24_flag.png",
+    "crest": "graphics/factions/custom/player_logo24_crest.png"
+},
+{
+    "logo": "graphics/factions/custom/player_logo25_flag.png",
+    "crest": "graphics/factions/custom/player_logo25_crest.png"
+},
+{
+    "logo": "graphics/factions/custom/player_logo26_flag.png",
+    "crest": "graphics/factions/custom/player_logo26_crest.png"
+},
+{
+    "logo": "graphics/factions/custom/player_logo27_flag.png",
+    "crest": "graphics/factions/custom/player_logo27_crest.png"
+}
+
 "portraits":{
 		"standard_male":[
 			"graphics/portraits/com_male_1.png",

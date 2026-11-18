@@ -37,11 +37,6 @@ public class COM_ModPlugin extends BaseModPlugin {
     factionRelations(); // sets faction relations 
 		
    }
-
-   private void factionRelations() {
-     COM_Relations.generate(Global.getSector());
-
-   }
         private void ZinovievGen() {
         StarSystemAPI system = Global.getSector().createStarSystem("zinoviev");
         PlanetAPI star = system.initStar("Zinoviev", "star_red_supergiant", 
@@ -385,10 +380,6 @@ public class COM_ModPlugin extends BaseModPlugin {
         //planet.setCustomDescriptionId("opertunidad"); // adds planet description
 		//planet.setInteractionImage("illustrations", "Maistre_planet");//adds illustration
         system.updateAllOrbits();
-    }
-        public void factionRelations() {
-        COM_Relations.generate(Global.getSector());
-
     }
     
 }
